@@ -6,6 +6,20 @@
         <title>Introduction</title>
     </head>
     <body>
+      <button id="dylanBtn" onclick="dylanBtn()">"Click me"</button>
+      <script>
+        function dylanBtn() {
+          let dylanBtn = document.getElementById("dylanBtn");
+          if (dylanBtn.textContent === "Click me") 
+          {
+            dylanBtn.textContent = "My Names Dylan!";
+          } else {
+       
+            dylanBtn.textContent = "Click me";
+          }
+        }
+      </script>
+      
     </body>
   <footer>
     <script type="text/javascript" src="Javascript.js"></script>
